@@ -2,26 +2,26 @@ import java.util.Scanner;
  
 public class Employee {
  
- int empid;
  String name;
- float salary;
+ int jyear;
+ String address;
  
  public void getInput() {
  
   Scanner in = new Scanner(System.in);
-  System.out.print("Enter the empid :: ");
-  empid = in.nextInt();
   System.out.print("Enter the name :: ");
-  name = in.next();
-  System.out.print("Enter the salary :: ");
-  salary = in.nextFloat();
+  empid = in.next();
+  System.out.print("Enter the jyear :: ");
+  name = in.nextUnt();
+  System.out.print("Enter the address :: ");
+  salary = in.next();
  }
  
  public void display() {
   
-  System.out.println("Employee id = " + empid);
   System.out.println("Employee name = " + name);
-  System.out.println("Employee salary = " + salary);
+  System.out.println("Employee Joining year = " + jyear);
+  System.out.println("Employee address = " + address);
  }
  
  public static void main(String[] args) {
